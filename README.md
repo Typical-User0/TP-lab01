@@ -2,14 +2,13 @@
 ### Задание №1
 Скачайте библиотеку boost с помощью утилиты wget
 ```
-wget https://sourceforge.net/projects/boost/files/boost/1.81.0/boost_1_81_0.tar.gz
+wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz
 ```
 ### Задание №2
 Разархивируйте скачанный файл в директорию
 ```
-gzip -d boost_1_72_0.tar.gz 
-tar -xf boost_1_72_0.tar
-rm boost_1_72_0.tar
+tar -zxvf boost_1_69_0.tar.gz
+rm boost_1_69_0.tar.gz
 ```
 ### Задание №3
 Подсчитайте количество файлов в директории не включая вложенные директории
